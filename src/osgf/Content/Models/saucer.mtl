@@ -1,0 +1,25 @@
+# File produced by AccuTrans 3D
+
+newmtl bottom
+  Ns 196.0
+  d 1.0
+  illum 2
+  Kd 0.8078 0.8078 0.8078
+  Ka 0.1961 0.1961 0.1961
+  Ks 0 0 0
+
+newmtl edge
+  Ns 196.0
+  d 1.0
+  illum 2
+  Kd 0.8078 0.8078 0.8078
+  Ka 0.1961 0.1961 0.1961
+  Ks 0 0 0
+
+newmtl top
+  Ns 196.0
+  d 1.0
+  illum 2
+  Kd 0.8078 0.8078 0.8078
+  Ka 0.1961 0.1961 0.1961
+  Ks 0 0 0

@@ -1,0 +1,3 @@
+WVP gWVP
+LightPos lightPos
+EyePos eyePos

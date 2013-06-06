@@ -1,0 +1,53 @@
+﻿Build started 08-Jan-11 4:40:56 PM.
+     1>Project "D:\MyPrograms\osgf\OSGF\OSGF.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\MyPrograms\OSGF\Release\".
+       InitializeBuildStatus:
+         Creating "Release\OSGF.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ACamera.cpp OSGFCamera.cpp Effect.cpp GameState.cpp InputSystem.cpp MainGameState.cpp MainMenuState.cpp OSGFLevel.cpp OSGFMtlLoader.cpp OSGF3DModel.cpp Game.cpp GameTimer.cpp Main.cpp OSGFComponentManager.cpp OSGFCube.cpp OSGFDrawableComponentManager.cpp OSGFMenu.cpp OSGFMesh.cpp OSGFObjMeshLoader.cpp ScreenText.cpp Test.cpp
+         ACamera.cpp
+     1>d:\myprograms\osgf\osgf\ACamera.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFCamera.cpp
+         Effect.cpp
+     1>Effect.cpp(2): fatal error C1083: Cannot open include file: 'DxErr.h': No such file or directory
+         GameState.cpp
+     1>d:\myprograms\osgf\osgf\GameState.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         InputSystem.cpp
+         MainGameState.cpp
+     1>d:\myprograms\osgf\osgf\OSGFLevel.h(2): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         MainMenuState.cpp
+     1>d:\myprograms\osgf\osgf\GameState.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFLevel.cpp
+     1>d:\myprograms\osgf\osgf\OSGFLevel.h(2): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFMtlLoader.cpp
+     1>d:\myprograms\osgf\osgf\OSGFMtlLoader.h(5): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGF3DModel.cpp
+     1>d:\myprograms\osgf\osgf\Effect.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         Game.cpp
+     1>d:\myprograms\osgf\osgf\Game.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         GameTimer.cpp
+     1>GameTimer.cpp(31): warning C4244: '=' : conversion from '__int64' to 'double', possible loss of data
+         Main.cpp
+     1>d:\myprograms\osgf\osgf\game.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFComponentManager.cpp
+         OSGFCube.cpp
+     1>OSGFCube.cpp(2): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFDrawableComponentManager.cpp
+     1>d:\myprograms\osgf\osgf\OSGFLevel.h(2): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFMenu.cpp
+     1>d:\myprograms\osgf\osgf\GameState.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFMesh.cpp
+     1>d:\myprograms\osgf\osgf\OSGFMesh.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         OSGFObjMeshLoader.cpp
+     1>d:\myprograms\osgf\osgf\OSGFObjMeshLoader.h(7): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         ScreenText.cpp
+     1>d:\myprograms\osgf\osgf\ScreenText.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+         Compiling...
+         Test.cpp
+     1>d:\myprograms\osgf\osgf\game.h(3): fatal error C1083: Cannot open include file: 'D3DX10.h': No such file or directory
+     1>Done Building Project "D:\MyPrograms\osgf\OSGF\OSGF.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.21

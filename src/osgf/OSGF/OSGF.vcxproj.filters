@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Effects">
+      <UniqueIdentifier>{33343579-b580-4d87-8f42-25f8928f606d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OSGFBase">
+      <UniqueIdentifier>{3d1b239e-a86e-4f7c-8637-050bb59b9fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{9e58067c-8d17-48de-80a1-d4a79e05661e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{6f46186a-61a2-401c-9a32-affd347b8e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StateMachine">
+      <UniqueIdentifier>{e703dd1e-d80e-4f30-8261-d55b0acaf080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{e6d1bf4d-2d5e-4aa1-8a9c-6e0c866aab7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D">
+      <UniqueIdentifier>{f534cdae-9bfd-4baa-ba25-eae3d4d34e67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d4a18226-8ba7-4794-8214-bf619b9c3287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{fb7ef4e9-d9f2-4017-95b3-002f06853511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="3D\Meshes">
+      <UniqueIdentifier>{e1a1cf3d-38ed-4cbf-a63e-2cbba39decae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{406df1de-7a2b-4338-b078-8c1b2c504565}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameplayComponents">
+      <UniqueIdentifier>{52dad95e-7b22-4fb6-98a3-ddf562faf647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\Input">
+      <UniqueIdentifier>{c03cf468-3a52-4fe3-a46e-d88df648534e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFDrawableComponentManager.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFComponentManager.cpp">
+      <Filter>Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFCube.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameState.cpp">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFMenu.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Interface\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFObjMeshLoader.cpp">
+      <Filter>3D\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFMesh.cpp">
+      <Filter>3D\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFMtlLoader.cpp">
+      <Filter>3D\Meshes</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsGameState.cpp">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFPlane.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFMouse.cpp">
+      <Filter>Interface\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFDrawablePhysicsBody.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFComponent.cpp">
+      <Filter>OSGFBase</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFShipEngine.cpp">
+      <Filter>GameplayComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFProjectileSystem.h">
+      <Filter>GameplayComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFPhysicsWorld.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFCamera.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFLevel.cpp">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFSkyBox.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGF3DModel.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>StateMachine</Filter>
+    </ClCompile>
+    <ClCompile Include="OSGFScreenText.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFComponent.h">
+      <Filter>OSGFBase</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFDrawableComponentManager.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFComponentManager.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFCube.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGameState.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFMenuItem.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFMenu.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Interface\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuText.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFKeyboard.h">
+      <Filter>Interface\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFMesh.h">
+      <Filter>3D\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFObjMeshLoader.h">
+      <Filter>3D\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>3D\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDescription.h">
+      <Filter>3D\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFTextFileLoader.h">
+      <Filter>3D\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFMtlLoader.h">
+      <Filter>3D\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="MaterialContainer.h">
+      <Filter>3D\Meshes</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderConstants.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFLevel.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsGameState.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGF3DDrawableComponent.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFPlane.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFComponentContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawable.h">
+      <Filter>OSGFBase</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFDrawableComponent.h">
+      <Filter>OSGFBase</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFMouse.h">
+      <Filter>Interface\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFInputElement.h">
+      <Filter>Interface\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGF2DDrawableComponent.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFDrawablePhysicsBody.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSystem.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFShip.h">
+      <Filter>GameplayComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFShipEngine.h">
+      <Filter>GameplayComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFShipTurret.h">
+      <Filter>GameplayComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFShipComponent.h">
+      <Filter>GameplayComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFProjectile.h">
+      <Filter>GameplayComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFPhysicsWorld.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFShipControler.h">
+      <Filter>GameplayComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFCamera.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFFreeCamera.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFBoundCamera.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFSkyBox.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGF3DModel.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFDrawableComponentContainer.h">
+      <Filter>Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="OSGFScreenText.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Content\Color.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </None>
+    <None Include="..\Content\Cool.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </None>
+    <None Include="..\Content\Light.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </None>
+    <None Include="..\Content\monoColor.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </None>
+    <None Include="Texture.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </None>
+    <None Include="..\Content\LightAndTexture.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </None>
+    <None Include="..\Content\SkyBox.fx">
+      <Filter>Resource Files\Effects</Filter>
+    </None>
+  </ItemGroup>
+</Project>
